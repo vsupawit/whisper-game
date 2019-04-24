@@ -26,7 +26,7 @@ def make(_part):
     return word
 
 def gen():
-    parts =["subject","ext subject","verb","object","ext object","ext verb"]
+    parts =["subject","ext subject","verb","ext verb","object","ext object"]
     sentence = ""
     for part in parts:
         word = make(part)
